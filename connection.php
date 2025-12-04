@@ -6,7 +6,7 @@
 
         $bd= "bicicletas";
 
-        $connect = mysqli_connect($host, $user);
+        $connect = mysqli_connect($host, $user, $pass);
 
         mysqli_select_db($connect, $bd);
 
